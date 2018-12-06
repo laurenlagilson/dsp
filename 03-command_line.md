@@ -20,11 +20,10 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > 
+>>  **show current working directory path:** pwd . 
 
-**show current working directory path:** pwd .
-
-**creating a directory:** mkdir name of directory (E.g. mkdir march2018) .
+**creating a directory:** mkdir name of directory 
+(E.g. mkdir march2018) .
 
 **deleting a directory:** rm -r name of directory (E.g. rm -r march2018) [Be careful this removes everything in it too] .
 
@@ -56,8 +55,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 
-`ls` - lists files and directories in current directory .
+>>  `ls` - lists files and directories in current directory .
 
 `ls -a` - lists all contents in the current directory .
 
@@ -77,8 +75,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 
-`ls -c` - lists all contents by timestamp .
+>>  `ls -c` - lists all contents by timestamp .
 
 `ls -m` - lists all contents as a comma-separated list
 
@@ -94,8 +91,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 
-The `xargs` command converts the standard input into a command which can be repeated multiple times if necessary. There are many ways of using `xargs` in the command line. One of the most common uses of `xargs` is alongside the find command to locate files with certain attributes (E.g. file type/age of file/file name). We can then perform another command on these files.    
+>> The `xargs` command converts the standard input into a command which can be repeated multiple times if necessary. There are many ways of using `xargs` in the command line. One of the most common uses of `xargs` is alongside the find command to locate files with certain attributes (E.g. file type/age of file/file name). We can then perform another command on these files.    
 
 For example: If we would like to locate files that are older than a number of days and remove them, we can combine the `find` and `rm` commands using `xargs` to do this.   
 
