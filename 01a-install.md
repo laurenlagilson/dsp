@@ -47,7 +47,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3. As someone who only started learning Python as of 2018, I did some research on where to start and was recommended with learning Python 3. Although Python 2.7 is still widely used, the adoption of Python 3 is increasing and will be more likely to be used in the future! I started learning Python through 'Learn Python the Hard Way' by Zed Shaw and the most up to date version was using Python 3.
 
 ### Q2. Which Python Version Installed   
 
@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3.7.0
 
  
 
