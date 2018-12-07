@@ -20,22 +20,25 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
->>  **show current working directory path:** pwd
->>  **creating a directory:** mkdir name of directory (E.g. mkdir march2018)
->>  **deleting a directory:** rm -r name of directory (E.g. rm -r march2018) [Be careful this removes everything in it too]
->>  **creating a file using touch command:** touch filename.filetype (E.g. touch newnote.txt)
+>>  **show current working directory path:** pwd . 
 
-**deleting a file:** rm filename (E.g. rm oldnote.txt) .
+>>  **creating a directory:** mkdir name of directory (E.g. mkdir march2018) . 
 
-**renaming a file:** mv oldfilename newfilename (Renames 'oldfilename' to 'newfilename') .
+>>  **deleting a directory:** rm -r name of directory (E.g. rm -r march2018) [Be careful this removes everything in it too] .
 
-**listing hidden files:** ls -a (Shows files that start with a dot which are usually hidden) .
+>>  **creating a file using touch command:** touch filename.filetype (E.g. touch newnote.txt) . 
 
-**copying a file from one directory to another:** cp directory1/filetocopy newdirectory/ (Copies 'filetocopy' in 'directory1' to 'newdirectory') .
+>>  **deleting a file:** rm filename (E.g. rm oldnote.txt) .
 
-**moving a file from one directory to another:** mv filetomove newdirectory/ (Moves 'filetomove' into 'newdirectory') .
+>>  **renaming a file:** mv oldfilename newfilename (Renames 'oldfilename' to 'newfilename') . 
 
-**returning home:** cd ~ (If you get lost, returns you to home directory) .
+>>  **listing hidden files:** ls -a (Shows files that start with a dot which are usually hidden) .
+
+>>  **copying a file from one directory to another:** cp directory1/filetocopy newdirectory/ (Copies 'filetocopy' in 'directory1' to 'newdirectory') .
+
+>> **moving a file from one directory to another:** mv filetomove newdirectory/ (Moves 'filetomove' into 'newdirectory') .
+
+>> **returning home:** cd ~ (If you get lost, returns you to home directory) .
 
 
 ---
@@ -53,17 +56,17 @@ What do the following commands do:
 
 >>  `ls` - lists files and directories in current directory .
 
-`ls -a` - lists all contents in the current directory .
+>>  `ls -a` - lists all contents in the current directory .
 
-`ls -l` - lists all contents in the current directory in a long list format .
+>>  `ls -l` - lists all contents in the current directory in a long list format .
 
-`ls -lh` - combines ls -l and ls -h commands (lists all files in a long list and human readable format) .
+>>  `ls -lh` - combines ls -l and ls -h commands (lists all files in a long list and human readable format) .
 
-`ls -lah` - combines ls -l, ls -a, and ls -h commands (list all objects, doesn't ignore files starting with a dot and presents in human readable format) .
+>>  `ls -lah` - combines ls -l, ls -a, and ls -h commands (list all objects, doesn't ignore files starting with a dot and presents in human readable format) .
 
-`ls -t` - lists files and directories in the current directory in order of time modified .
+>>  `ls -t` - lists files and directories in the current directory in order of time modified .
 
-`ls -Glp` - lists contents in a long list format, without group names and uses '/' to indicate directories .
+>>  `ls -Glp` - lists contents in a long list format, without group names and uses '/' to indicate directories .
 
 ---
 
@@ -73,13 +76,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 >>  `ls -c` - lists all contents by timestamp .
 
-`ls -m` - lists all contents as a comma-separated list
+>>  `ls -m` - lists all contents as a comma-separated list . 
 
-`ls -r` - lists all contents in reverse order
+>>  `ls -r` - lists all contents in reverse order . 
 
-`ls -R` - Also displays subdirectories
+>>  `ls -R` - Also displays subdirectories . 
 
-`ls -q` - Displays all non-printed characters as a '?'
+>>  `ls -q` - Displays all non-printed characters as a '?'  
 
 ---
 
@@ -89,11 +92,11 @@ What does `xargs` do? Give an example of how to use it.
 
 >> The `xargs` command converts the standard input into a command which can be repeated multiple times if necessary. There are many ways of using `xargs` in the command line. One of the most common uses of `xargs` is alongside the find command to locate files with certain attributes (E.g. file type/age of file/file name). We can then perform another command on these files.    
 
-For example: If we would like to locate files that are older than a number of days and remove them, we can combine the `find` and `rm` commands using `xargs` to do this.   
+>> For example: If we would like to locate files that are older than a number of days and remove them, we can combine the `find` and `rm` commands using `xargs` to do this.   
 
-In this example we are removing all files in the 'October2018' directory that are older than 6 weeks or 42 days old:  
+>> In this example we are removing all files in the 'October2018' directory that are older than 6 weeks or 42 days old:  
 
-`find /October2018 -mtime +42 | xargs rm`
+>> `find /October2018 -mtime +42 | xargs rm`
 
  
 
