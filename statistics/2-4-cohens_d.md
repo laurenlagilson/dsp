@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> **The answers to the questions are as follows (code is presented at the bottom):**
+>> **The answers to the questions are as follows (code is presented at the bottom). An ipynb can be located in statistics folder under 2-4-cohens_d_code:**
 
 **Part 1 - Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others.**  
 By assessing the mean of the first born children with the mean of later born children, the data shows that first borns tend to be lighter.  
