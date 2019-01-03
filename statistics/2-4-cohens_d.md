@@ -6,7 +6,7 @@
 By assessing the mean of the first born children with the mean of later born children, the data shows that first borns tend to be lighter.  
 
 **Part 2 - Compute Cohen’s d to quantify the difference between the groups.**   
-By using the code provided in ThinkStats to calculate Cohen's d, the difference is -0.088672927072602.
+By using the code provided in ThinkStats to calculate Cohen's d, the difference is -0.088672927072602. Therefore, although first babies tend to be lighter the difference between the two means is very small.
 
 **Part 3 - How does it compare to the difference in pregnancy length?**   
 Again by using the provided code, the difference is 0.028879044654449883 for pregnancy length. Although these are both categorised as very small by Cohen, 1988 and Sawilowsky, 2009, the differences show a negetive result for the difference in weight and a positive result for the difference in preganancy length. This shows that the mean weight of first borns is smaller than the mean weight of subsequent births (demonstrated in part 1). However, as the result is positive for the length of pregnancy, this shows that the mean pregnancy length for first borns is longer than those of other births.  
