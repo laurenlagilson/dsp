@@ -88,23 +88,23 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> The probability that Elvis was identical, given that he was a twin is 5/11 or 45.5%
 
-Method:
-We want the probability that Elvis was identical, given that he was a male twin. P(Identical|Male Twin).
-
-P(Identical|Male Twin) = P(Identical & Male) / Total P(Male-Male Twin) 
-
-P(Identical) = 1/300 
-P(Identical & Male) = 1/300 * 1/2 = 1/600 (Only MM or FF combinations of identical twins)
-
-P(Male-Male Twin) = P(Identical & Male) + P(Fraternal & Male)
-
-P(Identical & Male) = 1/600 (As above)
-P(Fraternal & Male) = 1/125 * 1/4 = 1/500 (As out of MM,MF,FM,FF combinations of fraternal twins, 1/4 of being MM)
-
-P(Male-Male Twin) = 1/600 + 1/500 = 11/3000
-
-So, 
-P(Identical|Male Twin) = (1/600)/(11/3000) = 3000/6600 = 5/11 or 45.5%
+>> Method:
+>> We want the probability that Elvis was identical, given that he was a male twin. P(Identical|Male Twin).
+>>
+>> P(Identical|Male Twin) = P(Identical & Male) / Total P(Male-Male Twin) 
+>>
+>>P(Identical) = 1/300 
+>>P(Identical & Male) = 1/300 * 1/2 = 1/600 (Only MM or FF combinations of identical twins)
+>>
+>>P(Male-Male Twin) = P(Identical & Male) + P(Fraternal & Male)
+>>
+>>P(Identical & Male) = 1/600 (As above)
+>>P(Fraternal & Male) = 1/125 * 1/4 = 1/500 (As out of MM,MF,FM,FF combinations of fraternal twins, 1/4 of being MM)
+>>
+>>P(Male-Male Twin) = 1/600 + 1/500 = 11/3000
+>>
+>>So, 
+>>P(Identical|Male Twin) = (1/600)/(11/3000) = 3000/6600 = 5/11 or 45.5%
  
  
 
